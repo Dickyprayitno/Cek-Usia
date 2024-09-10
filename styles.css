@@ -1,0 +1,47 @@
+/* styles.css */
+/* clearing */
+html, body, :root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 16px;
+    background-color: rgb(90, 90, 253);
+}
+
+#birthday {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#check-button {
+    padding: 8px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    font-size: 18px;
+}
+#cek {
+    margin: auto;
+}
+#check-button:hover {
+    background-color:  black;
+}
+.resultVew {
+    font-size: 18px;
+    margin-top: 16px;
+}
